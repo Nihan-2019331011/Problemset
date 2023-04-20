@@ -1,8 +1,0 @@
-There are **n** students in a class. They are very close to each other. Tomorrow is their semester final exam and they have to participate **4** courses.     
-Somehow they manage the security system of the exam hall. They can also predict their expected marks **a<sub>i</sub>** for each course and also know the pass mark **(m)** of each course. Fortunately they will sit one after another and they can copy from their neighbor friend's paper. More formally the **i<sup>th</sup>** student ***(1<i<n)*** can copy from ***(i+1)<sup>th</sup>*** and ***(i-1)<sup>th</sup>*** students paper and the first student will able to copy only from the second one and the last student ***(n<sup>th</sup>)*** can only copy from the ***(n-1)<sup>th</sup>*** student's paper.     
-To complete the semester successfully they have to pass each courses. You have to determine if they will be able to complete the exam or they will have to wait for the next year.     
-#### Input   
-The first line contains an integer ***n (1≤n≤10<sup>5</sup>)*** — the number of students and **x (1 ≤ x ≤ 100)** pass mark for each course.    
-Each of the following n lines contain four integers  **a, b, c, d, (1 ≤ a, b, c, d ≤ 100)** representing **i<sup>th</sup> (1 ≤ i ≤n)** student's predicted marks on each course (respectively) .      
-#### Output     
-Print **"Kop Mama!"** if every student is able to complete the semester or **"Next Year Kop Hobe!"** if one of them fails (without quotes).  
